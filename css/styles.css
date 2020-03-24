@@ -101,3 +101,40 @@ nav li a:hover {
 .main_button:hover {
     background-color:#5a9816;
 }
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:10% ;
+    align-items: center;
+}
+
+.features .feature_content {
+    text-align: center;
+}
+.features .feature_content p {
+    font-size: var(--normal);
+}
+
+.features .feature_content h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.features .feature_content .feature_image1 img {
+    height: 113px;
+    width: 138px;
+}
+.features .feature_content .feature_image2 img{
+    width: 112px;
+    height: 103px;
+}
+
+.features .feature_content .feature_image3 img {
+    width: 104px;
+    height: 104px;
+}
+.feature_image {
+    text-align: center;
+    height: 120px;
+}
