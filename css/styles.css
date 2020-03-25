@@ -54,7 +54,7 @@ nav li a:hover {
 
 .main_section {
     padding: 15% 0 20% 0;
-    margin: -176px;
+    margin: -176px 0;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -101,11 +101,13 @@ nav li a:hover {
 .main_button:hover {
     background-color:#5a9816;
 }
+/* ------------FEATURES------------- */
 
 .features {
     display: flex;
     justify-content: space-evenly;
-    padding-top:10% ;
+    padding: 5% 20% 0;
+    /* margin: 0 104px; */
     align-items: center;
 }
 
@@ -138,3 +140,74 @@ nav li a:hover {
     text-align: center;
     height: 120px;
 }
+
+/* --------------MENTION SECTION----------- */
+.mention_title{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-top: 1px solid #EEEEEE;
+    margin-top: 77px;
+
+}
+.mention_title h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 77.5px;
+    margin-bottom: 39px;
+    
+}
+.mentions_section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+.mentions {
+    width:240px ;
+    height: 190px;
+    margin: 5px;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px
+    
+}
+.mention_text h5 {
+    font-size: 17px;
+    padding-left: 8px;
+    margin: 0;
+}
+
+.mention_text p {
+    font-size: var(--normal);
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 6px;
+    margin: 0;
+}
+
+/* ------------footer-------------- */
+
+.footer_options {
+    background: #313337;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options ul {
+    list-style: none;
+    padding-left: 16px;
+    padding-right:17px ;
+}
+
+.options ul li a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.options ul li a:hover{
+    color:#b9b9b9 ;
+}
+
+
