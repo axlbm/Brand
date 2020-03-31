@@ -21,7 +21,13 @@ html,body {
     margin: 0;
     font-size: var(--normal);
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
+
+p, label {
+    font-size: var(--normal);
+}
+
 
 nav {
     display: flex;
@@ -87,7 +93,7 @@ nav li a:hover {
     text-align: center;
 }
 
-.main_button {
+.main_btn {
     background-color:var(--green-color)  ;
     width: 100%;
     padding: var(--space);
@@ -98,7 +104,7 @@ nav li a:hover {
     border-radius: 2px;
 }
 
-.main_button:hover {
+.main_btn:hover {
     background-color:#5a9816;
 }
 /* ------------FEATURES------------- */
@@ -185,6 +191,33 @@ nav li a:hover {
     padding-top: 6px;
     margin: 0;
 }
+/* ------------Venta-------------- */
+
+.modulo_pago {
+    background: var(--white-color);
+    box-shadow: var(--box) ;
+    padding: var(--space);
+}
+
+.modulo_pago .main_btn {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.modulo_pago_images {
+    text-align: center;
+    width: 100%;
+    }
+
+.data {
+    margin-top: var(--space);
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+}
+
 
 /* ------------footer-------------- */
 
@@ -194,6 +227,11 @@ nav li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: auto;
+}
+
+.contact a{
+    color: var(--green-color);
 }
 .options ul {
     list-style: none;

@@ -15,7 +15,7 @@
     <div class="container_nav">
         <nav class="fadeInDown">
             <div class="brand_image">
-                <a href="https://imgur.com/CMeblI1"><img src="https://imgur.com/CMeblI1.png" alt="logo de brand"></a>
+                <a href="index.html"><img src="https://imgur.com/CMeblI1.png" alt="logo de brand"></a>
             </div>
             <div class="nav_options">
                 <ul>
@@ -31,11 +31,38 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-
+                <div class="modulo_pago">
+                    <div class="modulo_pago_images">
+                        <a href="https://imgur.com/Fc0KnoV"><img src="https://imgur.com/Fc0KnoV.png" alt="gatito en caja" width="230px" height="230px"></a> 
+                    </div>
+                    <h3>Producto 1</h3>
+                     <p>
+                         Miles de productos hay en el mercado, pero nada como una caja con gatitos.
+                     </p>
+                </div>  
             </div>
             <div class="col-8">
                 <div class="modulo_pago">
-                    
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WADUFQVZLDKUG" method="post">
+                        <input type="hidden" name="first_name" value="John">
+					    <input type="hidden" name="night_phone_a" value="610">
+  					    <input type="hidden" name="mail" value="jdoe@zyzzyu.com">
+                        <label for="name">Nombre</label>
+                        <br>
+                        <input type="name" placeholder="" name="name" class="data" required>
+
+                        <br>
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input type="text" placeholder="" name="email" class="data" required>
+
+                        <br>
+                        <label for="phone">telefono</label>
+                        <br>
+                        <input type="text" placeholder="" name="phone" class="data" required>
+                        <br>
+                        <input type="submit" class="main_btn" name="submit" value="Confirmar pago">
+                    </form>
                 </div>
             </div>
         </div>
