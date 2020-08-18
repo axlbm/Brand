@@ -248,4 +248,18 @@ nav li a:hover {
     color:#b9b9b9 ;
 }
 
+/* ------------mediaQueries-------------- */
 
+@media screen and (max-width: 1024px) {
+    .main_section {
+        font-size: 20px;
+        margin: -100px 0;
+    }
+    .product {
+        /* padding: 10% 5% 0; */
+        margin-top: -170px;
+    }
+    .features {
+        padding: 10% 5% 0; 
+    }
+}
